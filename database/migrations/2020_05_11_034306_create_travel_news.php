@@ -20,6 +20,7 @@ class CreateTravelNews extends Migration
             $table->integer('category_id');
             $table->integer('is_trash')->default(0);
             $table->integer('status')->default(0);
+            $table->text('images');
             $table->text('content');
             $table->integer('city_id')->nullable();
             $table->integer('district_id')->nullable();
