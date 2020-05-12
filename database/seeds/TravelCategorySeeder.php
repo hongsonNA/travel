@@ -17,7 +17,7 @@ class TravelCategorySeeder extends Seeder
                 [
                     'category_id' => 1,
                     'title' => 'Du lịch trong nước',
-                    'slug' => 'ddu-lich-trong-nuoc'
+                    'slug' => 'ddu-lich-trong-nuoc',
                 ],
                 [
                     'category_id' => 2,
