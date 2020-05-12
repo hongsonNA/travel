@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
+        
         $allNews = TravelNews::all();
         // dd($allNews->toArray());
         return view('index');

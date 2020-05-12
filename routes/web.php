@@ -18,8 +18,12 @@ use Illuminate\Support\Facades\Route;
 //     return view('index');
 // });
 Route::get('/', 'Homecontroller@index')->name('index');
-Route::get('/about.html', 'About\\AboutController@about')->name('about');
-Route::get('/category.html', 'Category\\CategoryController@category')->name('category');
-Route::get('/detail.html', 'Category\\CategoryController@detail')->name('detail');
-Route::get('/trending.html', 'Trending\\TrendingController@trending')->name('trending');
-Route::get('/contact.html', 'Contact\\ContactController@contact')->name('contact');
+
+
+Route::group(['prefix' => 'news'], 
+    function() {
+        Route::get('/', 'News\\NewsController@listNews')->name('listNews');
+        Route::post('add', 'News\\NewsController@addNews')->name('addNews');
+    
+});
+

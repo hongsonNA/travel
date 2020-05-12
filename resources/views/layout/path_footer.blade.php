@@ -1,24 +1,20 @@
+<!-- END: Footer-->
 
-    {{--  //jquery plugins here  --}}
-    {{--  //jquery   --}}
-    <script src="js/jquery-1.12.1.min.js"></script>
-    {{--  //popper js   --}}
-    <script src="js/popper.min.js"></script>
-    {{--  //bootstrap js   --}}
-    <script src="js/bootstrap.min.js"></script>
-    {{--  //easing js  --}}
-    <script src="js/jquery.magnific-popup.js"></script>
-    {{--  //particles js   --}}
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-   {{--  // slick js   --}}
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-   {{--  // custom js   --}}
-    <script src="js/custom.js"></script>
+
+    {{-- <!-- BEGIN: Vendor JS--> --}}
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    {{-- <!-- BEGIN Vendor JS--> --}}
+
+    {{-- <!-- BEGIN: Page Vendor JS--> --}}
+    <script src="../../../app-assets/vendors/js/charts/apexcharts/apexcharts.min.js"></script>
+    {{-- <!-- END: Page Vendor JS--> --}}
+
+    {{-- <!-- BEGIN: Theme JS--> --}}
+    <script src="../../../app-assets/js/core/app-menu.min.js"></script>
+    <script src="../../../app-assets/js/core/app.min.js"></script>
+    <script src="../../../app-assets/js/scripts/customizer.min.js"></script>
+    {{-- <!-- END: Theme JS--> --}}
+
+    {{-- <!-- BEGIN: Page JS--> --}}
+    <script src="../../../app-assets/js/scripts/cards/card-statistics.min.js"></script>
+    {{-- <!-- END: Page JS--> --}}
